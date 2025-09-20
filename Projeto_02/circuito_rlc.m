@@ -272,7 +272,7 @@ fprintf('Para f = %.4f Hz:\n', f_final);
 fprintf('  Impedância |Z| = %.2f Ω\n', Z);
 fprintf('  Corrente calculada: %.4f A\n', i_calculado);
 fprintf('  Corrente esperada:  %.4f A\n', i_m);
-fprintf('  Erro relativo: %.4f%%\n\n', erro_percentual);
+fprintf('  Erro relativo: %.5f%%\n\n', erro_percentual);
 
 % Verificar todas as raízes encontradas
 if size(mudancas_sinal, 1) > 1
